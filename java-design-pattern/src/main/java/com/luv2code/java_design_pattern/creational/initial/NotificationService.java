@@ -1,4 +1,4 @@
-package com.luv2code.java_design_pattern.creational.Factory;
+package com.luv2code.java_design_pattern.creational.initial;
 
 public class NotificationService {
     // initial implementation

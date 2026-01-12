@@ -2,11 +2,16 @@ package com.luv2code.java_design_pattern.creational.Factory;
 
 public class MainApp {
     public static void main(String[] args){
-        NotificationService notificationService = new NotificationService();
+        Notification emailNotification = NofiticationFactory.createNotification("email");
+        emailNotification.notifyUser();
 
-        notificationService.sendNotification("email");
-        notificationService.sendNotification("sms");
-        notificationService.sendNotification("whatsapp");
+        Notification smslNotification = NofiticationFactory.createNotification("sms");
+        smslNotification.notifyUser();
 
+        Notification whatsappNotification = NofiticationFactory.createNotification("whatsapp");
+        whatsappNotification.notifyUser();
+
+        Notification messengerNotification = NofiticationFactory.createNotification("messenger");
+        messengerNotification.notifyUser();
     }
 }
