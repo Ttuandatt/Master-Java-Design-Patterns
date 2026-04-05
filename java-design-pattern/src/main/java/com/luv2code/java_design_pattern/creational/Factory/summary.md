@@ -25,11 +25,6 @@ The Factory Design Pattern is a creational design pattern that provides an inter
 5. **Maintainability**:
     - By centralizing object creation logic in one place, the Factory Design Pattern makes your codebase easier to maintain and understand.
     - It reduces the risk of errors related to object instantiation and ensures consistency across the application.
-```
-
-### Step 3: Save and Close
-
-Save the file and close the text editor.
 
 ### Example Implementation
 
@@ -39,7 +34,7 @@ Here’s a simple example to illustrate the Factory Design Pattern in Java:
 
 ```java
 public interface Shape {
-    void draw();
+   void draw();
 }
 ```
 
